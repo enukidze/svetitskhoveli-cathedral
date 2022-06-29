@@ -1,0 +1,11 @@
+Model Information:
+* title:	Svetitskhoveli Cathedral, Mtskheta, Georgia
+* source:	https://sketchfab.com/3d-models/svetitskhoveli-cathedral-mtskheta-georgia-22362072fe5d4bd08ea78e89df4b3e4c
+* author:	bumbeishvili (https://sketchfab.com/bumbeishvili)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Svetitskhoveli Cathedral, Mtskheta, Georgia" (https://sketchfab.com/3d-models/svetitskhoveli-cathedral-mtskheta-georgia-22362072fe5d4bd08ea78e89df4b3e4c) by bumbeishvili (https://sketchfab.com/bumbeishvili) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

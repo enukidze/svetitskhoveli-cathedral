@@ -1,19 +1,117 @@
-*
-{
-    margin: 0;
-    padding: 0;
+html {
+    background: black;
 }
 
-html,
-body
-{
-    overflow: hidden;
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: white;
 }
 
-.webgl
+.loading-bar
 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.5s;
+}
+
+.loading-bar.ended
+{
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+    transition: transform 1.5s ease-in-out;
+}
+
+canvas {
     position: fixed;
     top: 0;
     left: 0;
-    outline: none;
+}
+
+.card {
+    box-shadow: 0 4px 4px 0.9 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif, ;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0.7;
+    position: absolute;
+    left: 60%;
+}
+
+.card-left {     
+    box-shadow: 0 4px 4px 0.9 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif, ;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0.7;
+    position: absolute;
+    right: 60%;
+}
+
+
+
+
+.container {
+    padding: 30px;
+    text-align: left;
+
+}
+
+.gc{ 
+    position: absolute;
+    text-align: center;
+    top: calc(50vh - 250px);
+    left: 150px;
+    font-size: 45px;
+
+}
+
+
+.svet {
+    position: absolute;
+    text-align: center;
+    top: calc(50vh + 150px);
+    left: 850px;
+    font-size: 45px;
+}
+
+
+
+h4 {
+    color: rgb(74, 73, 73);
+    font-size: 25px;
+}
+
+
+p {
+    color: rgb(74, 73, 73);
+}
+
+main {
+    width: 100vw;
+    height: 200vw;
+    z-index: 99;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+    /* font-size: 5vh;*/
+}
+
+section {
+    min-height: 100vh;
+    padding: 20px;
+    /* font-size: 4vh; */
 }
