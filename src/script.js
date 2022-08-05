@@ -55,7 +55,7 @@ const scene = new THREE.Scene()
 //Axes Helper
 const axesHelper = new THREE.AxesHelper(50);
 axesHelper.position.set(0, 0, 0)
-scene.add(axesHelper);
+//scene.add(axesHelper);
 
 /**
  * Models
